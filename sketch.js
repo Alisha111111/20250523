@@ -47,7 +47,7 @@ function drawFacemeshLines() {
   if (predictions.length > 0) {
     const keypoints = predictions[0].scaledMesh;
     stroke(255, 0, 0);
-    strokeWeight(15);
+    strokeWeight(5);
     noFill();
     beginShape();
     for (let i = 0; i < FACEMESH_POINTS.length; i++) {
